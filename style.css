@@ -1,0 +1,175 @@
+.main{
+	background-color: gray;
+}
+.menu ul{
+   display: flex;
+   gap: 50px;
+   margin-left: 150px;
+   background-color: green;
+   font-family: Arial;
+   font-weight: bold;
+   color: white;
+   margin-right: 250px;
+}
+.menu ul a:hover{
+     color: orange;
+}
+.main h1{
+   color: black;
+}
+.main h1{
+   margin-left: 250px;
+}
+.main p{
+   font-size: 50px;
+   margin-left: 100px;
+   margin-right: 100px;
+}
+.main img{
+   width: 700px;
+   margin-left: 100px;
+}
+.Contact{
+   display: flex;
+   gap: 50px;
+   background-color: green;
+   font-size: 20px;
+   margin-left: 50px;
+   margin-right: 500px;
+}
+.Contact a:hover{
+   color: orange;
+}
+.Info{
+   margin-left: 50px;
+   font-size: 20px;
+}
+.my-button{
+   border-radius: 5px;
+   background-color: pink;
+   border: none;
+   margin-bottom: 400px;
+   margin-top: 50px;
+}
+.my-button:hover{
+   background-color: green;
+}
+.Tradition{
+   background-color: blue;
+}
+.grid{
+   display: grid;
+   gap: 1px;
+   grid-template-columns: repeat(3, 1fr);
+   margin-right: 50px;
+}
+.grid img{
+   margin-top: 5px;
+   margin-left: 10px;
+   max-width: 90%;
+   max-height: 60%;
+   height: auto;
+   width: auto;
+   object-fit: cover;
+   opacity: 1;
+   transition: opacity 0.3s ease;
+}
+.grid img:hover{
+   opacity: 0.7;
+   transform: scale(1.1);
+   filter: grayscale(0%);
+}
+.grid-item{
+   position: relative;
+}
+.grid-item p{
+   position: relative;
+   bottom: 20px;
+   left: 0;
+   padding: 10px;
+   color: #fff;
+   font-size: 20px;
+}
+.grid div{
+
+   background-color: green;
+   border-radius: 20px;
+   border: 2px solid;
+   margin-left: 100px;
+   max-height: 95%;
+   max-width: 88%;
+}
+.clothing{
+   display: flex;
+   gap: 50px;
+   margin-left: 250px;
+   background-color: green;
+   font-size: 20px;
+   margin-right: 400px;
+}
+.clothing a:hover{
+   color: orange;
+}
+.grid.img{
+   width: 150px;
+   align-self: 20px;
+}
+.Arts{
+   display: flex;
+   gap: 50px;
+   background-color: green;
+   font-size: 20px;
+   margin-left: 90px;
+   gap: 50px;
+   margin-right: 400px;
+}
+.Arts a:hover{
+   color: orange;
+}
+.Crafts{
+   background-color: blue;
+}
+.Accessories{
+   margin-left: 30px;
+}
+.Accessories img{
+   border-radius: 30px;
+}
+.Accessories p{
+   margin: 10px;
+   padding: 10px;
+   font-size: 33px;
+}
+.Dance{
+   display: flex;
+   gap: 50px;
+   background-color: green;
+   font-size: 20px;
+   margin-left: 50px;
+   margin-right: 500px;
+}
+.Dance a:hover{
+   color: orange;
+}
+.show{
+   margin-left: 30px;
+}
+.Contact form{
+   margin-left: 30px;
+}
+.Feedback{
+   background-color: grey;
+}
+.Crafts{
+   background-color: grey;
+}
+.Music{
+   background-color: grey;
+}
+.table h1{
+   text-align: center;
+   color: black;
+}
+.show{
+   font-family: Arial, sans-serif;
+}
